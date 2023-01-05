@@ -17,6 +17,7 @@
 		554CF745294BECEA0060AA77 /* BoardGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CF744294BECEA0060AA77 /* BoardGameController.swift */; };
 		557485D32954C93200790C1F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557485D22954C93200790C1F /* Card.swift */; };
 		557485D52954CAF900790C1F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557485D42954CAF900790C1F /* Game.swift */; };
+		55842088296718A5006FB59E /* CardViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55842087296718A5006FB59E /* CardViewFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		554CF744294BECEA0060AA77 /* BoardGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameController.swift; sourceTree = "<group>"; };
 		557485D22954C93200790C1F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		557485D42954CAF900790C1F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		55842087296718A5006FB59E /* CardViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				554CF731294BE94D0060AA77 /* Assets.xcassets */,
 				554CF733294BE94D0060AA77 /* LaunchScreen.storyboard */,
 				554CF736294BE94D0060AA77 /* Info.plist */,
+				5584208629671858006FB59E /* Helpers */,
 				554CF73D294BE9E90060AA77 /* Model */,
 				554CF73C294BE9D50060AA77 /* View */,
 				554CF73E294BE9F10060AA77 /* Controller */,
@@ -109,6 +112,14 @@
 				554CF72E294BE9490060AA77 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5584208629671858006FB59E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				55842087296718A5006FB59E /* CardViewFactory.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				557485D52954CAF900790C1F /* Game.swift in Sources */,
 				554CF742294BEA4B0060AA77 /* Cards.swift in Sources */,
 				554CF729294BE9490060AA77 /* AppDelegate.swift in Sources */,
+				55842088296718A5006FB59E /* CardViewFactory.swift in Sources */,
 				554CF72B294BE9490060AA77 /* SceneDelegate.swift in Sources */,
 				554CF740294BEA3B0060AA77 /* Shapes.swift in Sources */,
 			);
